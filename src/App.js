@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import ArticlePage from './components/ArticlePage';
-import ArticleListPage from './components/ArticlesListPage';
-import NavBar from './components/NavBar'
+import HomePage from './Page/HomePage';
+import AboutPage from './Page/AboutPage';
+import ArticlePage from './Page/ArticlePage';
+import ArticleListPage from './Page/ArticlesListPage';
+import NavBar from './Page/NavBar'
 
 
 function App()
